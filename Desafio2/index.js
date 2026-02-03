@@ -1,11 +1,12 @@
 let qtdeVitoria 
 let qtdeDerrota 
+let resultadoVitoria
 
-calcularVitorias(30,15)
+calcularVitorias(300,15)
 calcularNivelJogador()
 
 function calcularVitorias(qtdeVitoria, qtdeDerrota) {
-    let resultadoVitoria = qtdeVitoria - qtdeDerrota;
+    resultadoVitoria = qtdeVitoria - qtdeDerrota;
     return resultadoVitoria
 }
 
